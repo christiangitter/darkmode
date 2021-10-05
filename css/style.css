@@ -143,3 +143,23 @@ header .logo {
     position: relative;
     color: var(--black);
 }
+
+@media only screen and (max-width: 430px) {
+    .start .info-box {
+        padding: 20px;
+    }
+  }
+
+  @media only screen and (max-width: 370px) {
+    .start .info-box {
+        padding: 10px;
+    }
+
+    .start .info-box h1 {
+       font-size: 15px;
+    }
+    
+    .start .info-box p {
+        font-size: 15px;
+    }
+  }
