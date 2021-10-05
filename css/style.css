@@ -123,7 +123,21 @@ header .logo {
     background-color:var(--white);
 }
 
-.start h1 {
+.start .info-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    border: 3px solid var(--black);
+}
+
+.start .info-box h1 {
+    position: relative;
+    color: var(--black);
+}
+
+.start .info-box p {
     position: relative;
     color: var(--black);
 }
