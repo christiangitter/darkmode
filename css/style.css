@@ -9,14 +9,16 @@
 
 :root {
     --black:#333;
-    --white:#fff;
-    --akzent:#32E5AF;
+    --white:#e9e8e6;
+    --akzent:#579f47;
+    --background:url("../img/bg_light.jpg");
 }
 
 .dark {
-    --black:#fff;
+    --black:#e9e8e6;
     --white:#333;
     --akzent:#EFBC0F;
+    --background:url("../img/bg_dark.jpg");
 }
 
 header {
@@ -122,7 +124,10 @@ header .logo {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:var(--white);
+    background: var(--background);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.5s;
 }
 
 .start .info-box {
